@@ -60,17 +60,28 @@ which presents new complexities due to the non-Euclidean nature of point cloud d
 - Visualization of the impact and surface state analysis through roughness.
 
 ## Project Structure
-FGSM-Attacks-against-Deep-Learning-3D-Models/
+project/
+
 ├── models/
+
 │   ├── dgcnn.py        # Implementation of DGCNN
+
 │   ├── pointnet.py     # Implementation of PointNet
+
 ├── attacks/
+
 │   ├── basic_fgsm.py             # Basic FGSM attack 
+
 │   ├── chamfer_fgsm.py           # FGSM attack with Chamfer distance
+
 │   ├── iterative_fgsm_chamfer    # Iterative FGSM attack with Chamfer distance
+
 │   ├── l2_fgsm                   # FGSM attack with l2 norm 
+
 │   ├── l2_fgsm_dgcnn             # FGSM attack with l2 norm (DGCNN)
-├── Visualization_Roughness       
+
+├── Visualization_Roughness     
+
 ├── README.md            
 
 
