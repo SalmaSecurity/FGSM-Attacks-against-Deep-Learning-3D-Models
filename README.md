@@ -28,6 +28,8 @@ It is a method to create a 3D reconstructed using cameras. The cameras capture t
 
 PointNet is a pioneering model for processing point clouds, capable of extracting discriminative features from 3D data. However, like many other machine learning models, PointNet is vulnerable to adversarial attacks. One of the simplest and most effective attack methods is the Fast Gradient Sign Method (FGSM). This attack involves adding a calculated perturbation to maximize the model’s loss while remaining almost imperceptible.
 
+![PointNet](images/PointNet2.png)
+
 ## Dynamic Graph Convolutional Neural Network (**DGCNN**)
 
 DGCNN is a neural network architecture designed to handle point cloud data by using the structure of graphs.
@@ -42,6 +44,8 @@ points based on distance metrics. During the training process, the model dynamic
 network, allowing for a deeper understanding of the underlying 3D structure. The use of edge features in convolutional operations
 provides a way to capture fine geometric details that are crucial for accurate classification
 and segmentation tasks.
+
+![DGCNN](images/DGCNN.png)
 
 ## Adversarial Attacks on DGCNN
 
@@ -106,6 +110,14 @@ To run the code, please follow this execution order:
 
 4. **Roughness Calculation**
    - Finally, calculate the roughness of the generated adversarial examples to assess their quality and effectiveness.
+  
+## For more Details and Results
+
+For detailed info about the project and its results, please refer to the [documentation](Code_Documentation.pdf).
+
+
+
+
 
 
 
